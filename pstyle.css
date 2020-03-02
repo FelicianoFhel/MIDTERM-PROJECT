@@ -15,13 +15,14 @@
 .name{  
     font-family: 'Times New Roman';
     font-weight: bolder;
-   font-size: xx-large;
-   color: white;
+    color: white;
+    font-size: xx-large
 }
 .namedesc{
     font-family: 'Times New Roman';
     font-size: large;
-    color: white;
+    color: black;
+    font-weight: lighter;
 }
 
 head{
@@ -33,6 +34,10 @@ head{
     width: 100%; /* Full width */
     z-index: 99;
     transition: 0.42.s;
+    
+    background-color: rgba(0, 0, 0, 0.76);
+
+    
   }
   .fggrey{
       color: gray;
@@ -49,10 +54,5 @@ head{
       font-size: xx-large;
       font-weight: bolder;
   }
-  #section2 {
-    height: 100px;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-
+ 
+  
