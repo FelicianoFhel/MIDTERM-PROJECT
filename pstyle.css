@@ -1,0 +1,58 @@
+.space{
+    margin-left: 4mm;
+}
+.space2{
+    margin: 4mm;
+}
+.pic{
+    background: url(me.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+.name{  
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+   font-size: xx-large;
+   color: white;
+}
+.namedesc{
+    font-family: 'Times New Roman';
+    font-size: large;
+    color: white;
+}
+
+head{
+    padding-left: 5cm;
+}
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 99;
+    transition: 0.42.s;
+  }
+  .fggrey{
+      color: gray;
+  }
+ 
+  a{
+       color: white;
+
+    font-size: medium;
+    font-weight: bold;
+  }
+  .bdcol{
+      font-family: 'Times New Roman';
+      font-size: xx-large;
+      font-weight: bolder;
+  }
+  #section2 {
+    height: 100px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
