@@ -1,9 +1,37 @@
+/* ---------NAVBAR----------*/
 .space{
     margin-left: 4mm;
 }
 .space2{
     margin: 4mm;
 }
+a.nav-link{
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+}
+.navmove{
+  margin-right: 3cm;
+  
+}
+.bdcol{
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+li a.active {background-color: #4CAF50;}
+
+li a:hover:not(.active){
+    background-color: #a5b35c;
+    color: white;
+}
+
+#pgbg{
+     background-color: #a5b35c;
+}
+
+/* ---------HOME----------*/
 #pic{
     background: url(me.png);
     background-size: cover;
@@ -47,6 +75,7 @@ head{
     background-color: rgba(0, 0, 0, 0.76); 
   }
  
+  /* ---------CHANGING FONT----------*/
 
   .fggrey{
       color: gray;
@@ -54,42 +83,23 @@ head{
       font-size: large;
       
   }
-  
-  
-a.nav-link{
-    font-size: medium;
-    font-weight: bold;
-    color: white;
-  }
-.navmove{
-    margin-right: 3cm;
-    
-}
-  .bdcol{
-      font-family: 'Times New Roman';
-      font-size: xx-large;
-      font-weight: bolder;
-  }
- 
- 
 
- li a.active {background-color: #4CAF50;}
-  
-  li a:hover:not(.active){
-      background-color: #a5b35c;
-      color: lightcyan;
+  .bold{
+    font-weight: bolder;
   }
   
-  #pgbg{
-       background-color: #a5b35c;
+  p.small {
+    line-height: 0.7;
   }
+  
+/* ---------APPLYING DOM----------*/
   .dark-mode {
     background-color: rgb(7, 11, 19);
     color: white;
   }
 
 
-
+/* ---------FLIPPING CARD / ABOUT ME----------*/
   .flip-card {
     background-color: transparent;
     width: 310px;
@@ -137,6 +147,7 @@ a.nav-link{
     border-radius: 10px;
   }
 
+  /* ---------SCROLLING EFFECT----------*/
   html {
     scroll-behavior: smooth;
   }
@@ -145,22 +156,7 @@ a.nav-link{
  
   
   
-  
-  
-  
-  .gallery-image {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .gallery-image img {
-    height: 250px;
-    width: 350px;
-    transform: scale(1.0);
-    transition: transform 0.3s ;
-  }
+/* ---------GALLERY----------*/
   
   .img-box {
     box-sizing: content-box;
@@ -169,7 +165,6 @@ a.nav-link{
     color: white; 
     background-color: white;
   }
-  
   .caption {
     position: absolute;
     bottom: 5px;
@@ -178,19 +173,16 @@ a.nav-link{
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
   
-  
-  
   .img-box:hover img { 
+    
     transform: scale(1.1);
 
     
   }
   
-
-
-
   img {
     border-radius: 8px;
+    
   }
 
   .hrr{
@@ -198,4 +190,3 @@ a.nav-link{
   }
   
 
- 
