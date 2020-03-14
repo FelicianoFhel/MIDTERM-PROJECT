@@ -10,6 +10,9 @@ a.nav-link{
   font-weight: bold;
   color: white;
 }
+a.nav-link:hover{
+  transition: all 0.2s;
+}
 .navmove{
   margin-right: 3cm;
   
@@ -21,16 +24,17 @@ a.nav-link{
 }
 
 .bdcol:hover{
-  transition: all 0.5s;
+  transition: all 0.2s;
   color: cyan;
 }
 
-li a.active {background-color: #4CAF50;}
 
 li a:hover:not(.active){
     background-color: #a5b35c;
     color: white;
 }
+
+
 
 #pgbg{
      background-color: #a5b35c;
@@ -105,6 +109,10 @@ head{
     color: white; 
     
   }
+  div.dark-mode{
+    background-color: rgb(7, 11, 19);
+    color: white; 
+  }
   
   
 /* ---------FLIPPING CARD / ABOUT ME----------*/
@@ -171,6 +179,7 @@ head{
    
     overflow: hidden;
     display: inline-block;
+    margin-left: 2mm;
     
   }
   
@@ -187,4 +196,12 @@ head{
   }
 
   
-
+/* ---------CONTACT----------*/
+.contactbg{
+  background: url(map.png);
+  background-size: cover;
+  
+ 
+  background-repeat: no-repeat;
+  
+}
